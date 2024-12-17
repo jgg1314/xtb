@@ -1,0 +1,12 @@
+.env
+
+credentials.json
+
+xtb.ipynb
+
+token.pickle
+
+csv_save/
+
+__pycache__
+
