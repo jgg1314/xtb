@@ -2,10 +2,19 @@
 
 credentials.json
 
+<<<<<<< HEAD
+=======
+xtb.ipynb
+
+>>>>>>> dev
 token.pickle
 
 csv_save/
 
 __pycache__
 
+<<<<<<< HEAD
 xtb.ipynb
+=======
+combined_xtb.xlsx
+>>>>>>> dev
