@@ -10,6 +10,7 @@ import google.auth
 from google.auth.transport.requests import Request
 import pickle
 import dotenv
+import sys
 from xtb_functions import get_trades, process_df, authenticate, get_folder_id_by_name, file_exists, upload_csv
 
 dotenv.load_dotenv()
@@ -26,3 +27,5 @@ df_processed, csv_file_path = process_df(df)
 folder_name = 'xtb'
 
 upload_csv(csv_file_path, folder_name)
+
+sys.exit()
